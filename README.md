@@ -5,11 +5,12 @@
 安装 celery==3.1.17 redis
 使用方法
 
-windows想使用celery 需要开2个命令窗口
+windows想使用celery 需要开2个命令窗口,在(vir))下
 
-1、celery beat -A celery_worker.celery -l info 
+1、celery -A celery_worker.celery  worker -l info
 
-2、celery work -A celery_worker.celery -l info
+
+2、celery beat -A celery_worker.celery -l info
 
 liunx
 
